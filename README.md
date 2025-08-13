@@ -77,12 +77,12 @@ This application is designed to run on a local machine. Follow these steps to se
 
 3.  **🗃️ Create and Seed the Database**
     -   In Visual Studio, go to **Tools > NuGet Package Manager > Package Manager Console**.
-    -   Once the console is ready, run the following command. This will connect to your local SQL Server instance, create the database, apply the schema, and populate it with initial data (including user roles and sample accounts).
+    -   Once the console is ready, run the following command. This will connect to the local SQL Server instance, create the database, apply the schema, and populate it with initial data.
         ```powershell
         Update-Database
         ```
 
 4.  **▶️ Run the Project**
     -   Press **F5** or click the green run button (with "https" profile) in the main toolbar.
-    -   Visual Studio will build the project, start the Kestrel web server, and automatically open the application's login page in your default browser.
+    -   Visual Studio will build the project, start the Kestrel web server, and automatically open the application's login page in the default browser.
 <br>
